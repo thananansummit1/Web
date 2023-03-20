@@ -1,0 +1,15 @@
+
+https://www.youtube.com/watch?v=YWXdl68XY7U
+
+docker ps
+
+
+docker build -t beam:v1 -f Web\Dockerfile .
+
+
+docker run -it --rm -p 8080:80 beam:v1
+
+
+------------------------
+
+docker rm -f CONTAINER_ID
